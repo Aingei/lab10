@@ -30,7 +30,7 @@ int main(){
 		else
 		{ // grade is wrong input
 			cout << "Wrong input. Please input again.\n" ;//Do something
-			i--;
+			continue;
 		} i++;
 	}while( grade != 0);
 	
